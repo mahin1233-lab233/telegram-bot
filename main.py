@@ -13,7 +13,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKe
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
 
 # --- [ কনফিগারেশন ] ---
-BOT_TOKEN = "8929890536:AAHA5JiIBQOGucIx37hRKvVX5HGc9YBg2d0"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN_ID = 8470505628
 GROUP_CHAT_ID = -1003838945007 
 OTP_GROUP_ID = -1003838945007 
