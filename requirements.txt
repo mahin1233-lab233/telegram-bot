@@ -1,0 +1,5 @@
+python-telegram-bot>=20.0
+httpx>=0.24.0
+pyotp>=2.9.0
+phonenumbers
+requests
